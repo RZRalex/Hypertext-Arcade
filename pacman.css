@@ -1,0 +1,41 @@
+body *{
+    margin: 0;
+    padding: 0;
+}
+
+.game{
+    background-color: black;
+}
+
+.row{
+    line-height: 0;
+}
+
+.wall{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+div.coin{
+    background: url('image_assets/coin_ani.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+}
+
+.blank {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+	display: inline-block;
+}
+
+div.pacman{
+    background: url('image_assets/pacman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
