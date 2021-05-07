@@ -3,10 +3,6 @@ body *{
     padding: 0;
 }
 
-.game{
-    background-color: black;
-}
-
 .row{
     line-height: 0;
 }
@@ -20,8 +16,11 @@ body *{
 
 div.coin{
     background: url('image_assets/coin_ani.gif');
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
+    display: inline-block;
     height: 40px;
     width: 40px;
 }
@@ -37,5 +36,10 @@ div.pacman{
     background: url('image_assets/pacman.gif');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    
 }
