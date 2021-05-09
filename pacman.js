@@ -31,17 +31,17 @@ function drawWorld(){
 }
 drawWorld();
 
-var ninjaman = {
+var pacman = {
     x: 1,
     y: 1
 }
 
-function drawNinjaman(){
-    document.getElementById('ninjaman').style.top = ninjaman.y * 40 + 'px'
-    document.getElementById('ninjaman').style.left = ninjaman.x * 40 + 'px'
+function drawPacman(){
+    document.getElementById('pacman').style.top = pacman.y * 40 + 'px'
+    document.getElementById('pacman').style.left = pacman.x * 40 + 'px'
     //document.write(score)
 }
-drawNinjaman()
+drawPacman()
 
 
 var score = 0

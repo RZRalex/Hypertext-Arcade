@@ -1,6 +1,10 @@
+body{
+    margin: 0px;
+}
+
 body *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .row{
@@ -32,7 +36,7 @@ div.coin{
 	display: inline-block;
 }
 
-div.pacman{
+div#pacman{
     background: url('image_assets/pacman.gif');
     background-repeat: no-repeat;
     background-position: center;
