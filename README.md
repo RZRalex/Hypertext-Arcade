@@ -3,30 +3,30 @@ A website featuring mini, HTML based games. This will be a skeleton website of s
 
 
 #Pacman
--Get movement functioning (workaround keycode deprecation)
--expand play field
--randomize play field for each play
--score functionality
--gametime functionality
--enemies in play
--glowing playfield
--lives
--gameover screen
--reset
--render webpage around game
+  -Get movement functioning (workaround keycode deprecation)
+  -expand play field
+  -randomize play field for each play
+  -score functionality
+  -gametime functionality
+  -enemies in play
+  -glowing playfield
+  -lives
+  -gameover screen
+  -reset
+  -render webpage around game
 
 #1942
--render game
+  -render game
 
 #homepage
--render page
--cards to click for game pages
--sidebar menu
--link to games off site
+  -render page
+  -cards to click for game pages
+  -sidebar menu
+  -link to games off site
 
 #GuessingGame
--render game
--javascript or python?
+  -render game
+  -javascript or python?
 
 #HangmanGame
 
